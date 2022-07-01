@@ -1,0 +1,6 @@
+vhdl work "SUB.vhd"
+vhdl work "slt_module.vhd"
+vhdl work "or_module.vhd"
+vhdl work "and_module.vhd"
+vhdl work "ADD.vhd"
+vhdl work "ALU.vhd"

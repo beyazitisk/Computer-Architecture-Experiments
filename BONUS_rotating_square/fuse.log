@@ -1,0 +1,64 @@
+Running: G:\Xlinx\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o G:/xlinx_projects/computer_arch/single_cycle_mips/tb_top_isim_beh.exe -prj G:/xlinx_projects/computer_arch/single_cycle_mips/tb_top_beh.prj work.tb_top 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/SUB.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/slt_module.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/or_module.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/and_module.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/ADD.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/SL2.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/sign_extend.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/reg_file.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/mux2_5bit.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/mux2_32bit.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/maindec.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/Decoder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/aludec.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/ALU.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/adder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/datapath.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/controller.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/processor.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/pc_reg.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/instruct_mem.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/data_mem.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/top.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/single_cycle_mips/tb_top.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity maindec [maindec_default]
+Compiling architecture behavioral of entity aludec [aludec_default]
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity mux2_5bit [mux2_5bit_default]
+Compiling architecture behavioral of entity mux2_32bit [mux2_32bit_default]
+Compiling architecture behavioral of entity sl2 [sl2_default]
+Compiling architecture behavioral of entity ADDER [\ADDER(32)\]
+Compiling architecture behavioral of entity register_file [register_file_default]
+Compiling architecture behavioral of entity sign_extend [sign_extend_default]
+Compiling architecture behavioral of entity ADD [\ADD(32)\]
+Compiling architecture behavioral of entity SUB [\SUB(32)\]
+Compiling architecture behavioral of entity slt_module [\slt_module(32)\]
+Compiling architecture behavioral of entity or_module [or_module_default]
+Compiling architecture behavioral of entity and_module [and_module_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity datapath [datapath_default]
+Compiling architecture behavioral of entity processor [processor_default]
+Compiling architecture behavioral of entity pc_reg [pc_reg_default]
+Compiling architecture behavioral of entity data_mem [data_mem_default]
+Compiling architecture behavioral of entity instruct_mem [instruct_mem_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture behavior of entity tb_top
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable G:/xlinx_projects/computer_arch/single_cycle_mips/tb_top_isim_beh.exe
+Fuse Memory Usage: 38256 KB
+Fuse CPU Usage: 733 ms
