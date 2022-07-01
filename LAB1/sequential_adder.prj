@@ -1,0 +1,8 @@
+vhdl work "half_adder.vhd"
+vhdl work "full_adder.vhd"
+vhdl work "sipo.vhd"
+vhdl work "paralel_in_ser_out.vhd"
+vhdl work "fsm.vhd"
+vhdl work "four_bit_register.vhd"
+vhdl work "four_bit_adder.vhd"
+vhdl work "sequential_adder.vhd"

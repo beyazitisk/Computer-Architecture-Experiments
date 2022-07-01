@@ -1,0 +1,2 @@
+vhdl isim_temp "ADD_MOD.vhd"
+vhdl isim_temp "add_mod_test.vhd"

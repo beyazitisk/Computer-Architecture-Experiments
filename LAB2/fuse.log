@@ -1,0 +1,64 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "G:/xlinx_projects/computer_arch/alu/ALUTHIRTYTWO_TEST_isim_beh.exe" -prj "G:/xlinx_projects/computer_arch/alu/ALUTHIRTYTWO_TEST_beh.prj" "work.ALUTHIRTYTWO_TEST" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/thirtytwo_bit_nor.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/thirtytwobitsubtractor.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/thirtytwobitadder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Srl_op.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Sra_op.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Sll_op.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Ror_op.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Rol_op.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/four_bit_xor.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/four_bit_or.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/four_bit_and.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/check_unsigned_less.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/check_unsigned_gre_eq.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/check_signed_less.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/check_signed_gre_eq.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/check_not_equal.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/check_equal.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Shift_Rotate_Unity.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Logical_Unit.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/Comparison_Unit.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/ADD_SUB_UNIT.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/ALU_thirtywo.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/alu/ALUTHIRTYTWO_TEST.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity thirtytwobitadder [\thirtytwobitadder(32)\]
+Compiling architecture behavioral of entity thirtytwobitsubtractor [\thirtytwobitsubtractor(32)\]
+Compiling architecture behavioral of entity ADD_SUB_UNIT [add_sub_unit_default]
+Compiling architecture behavioral of entity check_equal [check_equal_default]
+Compiling architecture behavioral of entity check_not_equal [check_not_equal_default]
+Compiling architecture behavioral of entity check_unsigned_gre_eq [check_unsigned_gre_eq_default]
+Compiling architecture behavioral of entity check_unsigned_less [check_unsigned_less_default]
+Compiling architecture behavioral of entity check_signed_gre_eq [check_signed_gre_eq_default]
+Compiling architecture behavioral of entity check_signed_less [check_signed_less_default]
+Compiling architecture behavioral of entity Comparison_Unit [comparison_unit_default]
+Compiling architecture behavioral of entity thirty_two_and [thirty_two_and_default]
+Compiling architecture behavioral of entity thirtytwo_bit_nor [thirtytwo_bit_nor_default]
+Compiling architecture behavioral of entity thirtytwo_bit_or [thirtytwo_bit_or_default]
+Compiling architecture behavioral of entity thirtytwo_bit_xor [thirtytwo_bit_xor_default]
+Compiling architecture behavioral of entity Logical_Unit [logical_unit_default]
+Compiling architecture behavioral of entity Rol_op [rol_op_default]
+Compiling architecture behavioral of entity Ror_op [ror_op_default]
+Compiling architecture behavioral of entity Sll_op [sll_op_default]
+Compiling architecture behavioral of entity Srl_op [srl_op_default]
+Compiling architecture behavioral of entity Sra_op [sra_op_default]
+Compiling architecture behavioral of entity Shift_Rotate_Unit [shift_rotate_unit_default]
+Compiling architecture behavioral of entity ALU_thirtywo [alu_thirtywo_default]
+Compiling architecture behavior of entity aluthirtytwo_test
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable G:/xlinx_projects/computer_arch/alu/ALUTHIRTYTWO_TEST_isim_beh.exe
+Fuse Memory Usage: 38588 KB
+Fuse CPU Usage: 874 ms

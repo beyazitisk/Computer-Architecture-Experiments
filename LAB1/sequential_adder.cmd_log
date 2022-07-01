@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "G:/xlinx_projects/computer_arch/LAB1/sequential_adder.xst" -ofn "G:/xlinx_projects/computer_arch/LAB1/sequential_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 sequential_adder.ngc sequential_adder.ngd  
+xst -intstyle ise -ifn "G:/xlinx_projects/computer_arch/LAB1/sequential_adder.xst" -ofn "G:/xlinx_projects/computer_arch/LAB1/sequential_adder.syr" 

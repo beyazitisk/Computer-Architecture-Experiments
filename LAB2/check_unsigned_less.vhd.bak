@@ -1,0 +1,55 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    17:25:55 03/27/2022 
+-- Design Name: 
+-- Module Name:    check_unsigned_less - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity check_unsigned_less is
+	generic(N: integer := 32);
+    Port ( sr1 : in  STD_LOGIC_VECTOR (N-1 downto 0);
+           sr2 : in  STD_LOGIC_VECTOR (N-1 downto 0);
+           result : out  STD_LOGIC_VECTOR (N-1 downto 0));
+end check_unsigned_less;
+
+architecture Behavioral of check_unsigned_less is
+signal sr1,sr2: unsigned (N-1 downto 0);
+signal result_temp: std_logic;
+begin
+process(sr1,sr2)
+	begin
+		if(sr1<=sr2) then
+			result_temp<='1';
+		else
+			result_temp<='0';
+		end if;
+end process;
+
+result<= result_temp;
+
+end Behavioral;
+

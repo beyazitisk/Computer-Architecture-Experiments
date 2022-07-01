@@ -1,0 +1,49 @@
+Command line:
+   sequential_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55660
+
+Thu Mar 17 20:05:18 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.29 Meg
+
+ Total Signals          : 135
+ Total Nets             : 77
+ Total Signal Drivers   : 44
+ Total Blocks           : 23
+ Total Primitive Blocks : 16
+ Total Processes        : 32
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 579
+Total Line Count : 114
+
+** Failure:Finish
+User(VHDL) Code Called Simulation Stop
+In process sequential_test.vhd:stim_proc 
+ 
+
+Total Line Count : 114
+
+** Failure:Finish
+User(VHDL) Code Called Simulation Stop
+In process sequential_test.vhd:stim_proc 
+ 
+
+Total Line Count : 114
+
+** Failure:Finish
+User(VHDL) Code Called Simulation Stop
+In process sequential_test.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 4678.43 Meg
+
+Thu Mar 17 20:12:52 2022
+

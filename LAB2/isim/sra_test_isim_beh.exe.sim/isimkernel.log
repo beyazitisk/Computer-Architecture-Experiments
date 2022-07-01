@@ -1,0 +1,29 @@
+Command line:
+   sra_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56987
+
+Sun Mar 27 19:02:32 2022
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5806.83 Meg
+
+ Total Signals          : 6
+ Total Nets             : 69
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 552
+Total Line Count : 5
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5334.97 Meg
+
+Sun Mar 27 19:03:45 2022
+

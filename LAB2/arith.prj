@@ -1,0 +1,7 @@
+vhdl work "half_adder.vhd"
+vhdl work "full_adder.vhd"
+vhdl work "increment.vhd"
+vhdl work "four_bit_subtract.vhd"
+vhdl work "four_bit_adder.vhd"
+vhdl work "decrement.vhd"
+vhdl work "four_to_one.vhd"

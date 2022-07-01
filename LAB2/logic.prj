@@ -1,0 +1,5 @@
+vhdl work "NotA.vhd"
+vhdl work "four_bit_xor.vhd"
+vhdl work "four_bit_or.vhd"
+vhdl work "four_bit_and.vhd"
+vhdl work "logic.vhd"

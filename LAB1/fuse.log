@@ -1,0 +1,36 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "G:/xlinx_projects/computer_arch/LAB1/sequential_test_isim_beh.exe" -prj "G:/xlinx_projects/computer_arch/LAB1/sequential_test_beh.prj" "work.sequential_test" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/half_adder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/full_adder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/sipo.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/paralel_in_ser_out.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/fsm.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/four_bit_register.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/four_bit_adder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/sequential_adder.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/LAB1/sequential_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity FSM [fsm_default]
+Compiling architecture behavioral of entity sipo [sipo_default]
+Compiling architecture behavioral of entity four_bit_register [four_bit_register_default]
+Compiling architecture behavioral of entity half_adder [half_adder_default]
+Compiling architecture behavioral of entity full_adder [full_adder_default]
+Compiling architecture behavioral of entity four_bit_adder [four_bit_adder_default]
+Compiling architecture behavioral of entity paralel_in_ser_out [paralel_in_ser_out_default]
+Compiling architecture behavioral of entity sequential_adder [sequential_adder_default]
+Compiling architecture behavior of entity sequential_test
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 22 VHDL Units
+Built simulation executable G:/xlinx_projects/computer_arch/LAB1/sequential_test_isim_beh.exe
+Fuse Memory Usage: 38768 KB
+Fuse CPU Usage: 639 ms

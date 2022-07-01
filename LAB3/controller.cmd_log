@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/xlinx_projects/computer_arch/LAB3/controller.xst" -ofn "G:/xlinx_projects/computer_arch/LAB3/controller.syr" 

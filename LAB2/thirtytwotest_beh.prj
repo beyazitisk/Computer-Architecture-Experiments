@@ -1,0 +1,4 @@
+vhdl work "thirtytwobitsubtractor.vhd"
+vhdl work "thirtytwobitadder.vhd"
+vhdl work "ADD_SUB_UNIT.vhd"
+vhdl work "thirtytwotest.vhd"

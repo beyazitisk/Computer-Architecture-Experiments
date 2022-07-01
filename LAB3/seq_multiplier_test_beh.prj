@@ -1,0 +1,8 @@
+vhdl work "Product.vhd"
+vhdl work "MULTIPLIER.vhd"
+vhdl work "MULTIPLICAND.vhd"
+vhdl work "CONTROLLER.vhd"
+vhdl work "and_mod.vhd"
+vhdl work "ADDER.vhd"
+vhdl work "seq_multiplier.vhd"
+vhdl work "seq_multiplier_test.vhd"

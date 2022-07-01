@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "G:/xlinx_projects/computer_arch/LAB3/seq_multiplier_test_isim_beh.exe" -prj "G:/xlinx_projects/computer_arch/LAB3/seq_multiplier_test_beh.prj" "work.seq_multiplier_test" 

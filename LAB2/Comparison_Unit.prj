@@ -1,0 +1,7 @@
+vhdl work "check_unsigned_less.vhd"
+vhdl work "check_unsigned_gre_eq.vhd"
+vhdl work "check_signed_less.vhd"
+vhdl work "check_signed_gre_eq.vhd"
+vhdl work "check_not_equal.vhd"
+vhdl work "check_equal.vhd"
+vhdl work "Comparison_Unit.vhd"

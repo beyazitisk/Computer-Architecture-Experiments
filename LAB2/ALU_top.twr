@@ -1,0 +1,188 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ALU_top.twx ALU_top.ncd -o ALU_top.twr ALU_top.pcf -ucf
+ALU_top.ucf
+
+Design file:              ALU_top.ncd
+Physical constraint file: ALU_top.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+seg_out<1>  |        10.950(R)|      SLOW  |         4.160(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_out<2>  |        10.432(R)|      SLOW  |         4.026(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_out<3>  |        10.184(R)|      SLOW  |         3.612(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_out<4>  |        10.502(R)|      SLOW  |         3.931(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_out<5>  |        10.722(R)|      SLOW  |         3.805(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_out<6>  |        10.727(R)|      SLOW  |         3.931(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_out<7>  |         9.739(R)|      SLOW  |         3.457(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_sel<0>  |        10.539(R)|      SLOW  |         3.802(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_sel<1>  |        10.388(R)|      SLOW  |         3.746(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_sel<2>  |        10.394(R)|      SLOW  |         3.943(R)|      FAST  |clk_BUFGP         |   0.000|
+seg_sel<3>  |        10.152(R)|      SLOW  |         3.805(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.679|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+in1<0>         |flag_out<0>    |    9.451|
+in1<0>         |flag_out<1>    |    8.445|
+in1<0>         |flag_out<2>    |   10.261|
+in1<0>         |seg_out<1>     |   11.185|
+in1<0>         |seg_out<2>     |   10.489|
+in1<0>         |seg_out<3>     |    9.867|
+in1<0>         |seg_out<4>     |   10.741|
+in1<0>         |seg_out<5>     |   10.341|
+in1<0>         |seg_out<6>     |   10.345|
+in1<0>         |seg_out<7>     |    9.990|
+in1<1>         |flag_out<0>    |    9.051|
+in1<1>         |flag_out<1>    |    8.004|
+in1<1>         |flag_out<2>    |    9.861|
+in1<1>         |seg_out<1>     |   10.785|
+in1<1>         |seg_out<2>     |   10.089|
+in1<1>         |seg_out<3>     |    9.467|
+in1<1>         |seg_out<4>     |   10.341|
+in1<1>         |seg_out<5>     |    9.941|
+in1<1>         |seg_out<6>     |    9.945|
+in1<1>         |seg_out<7>     |    9.590|
+in1<2>         |flag_out<0>    |    8.446|
+in1<2>         |flag_out<1>    |    7.695|
+in1<2>         |flag_out<2>    |    9.148|
+in1<2>         |seg_out<1>     |   10.072|
+in1<2>         |seg_out<2>     |    9.376|
+in1<2>         |seg_out<3>     |    8.754|
+in1<2>         |seg_out<4>     |    9.628|
+in1<2>         |seg_out<5>     |    9.228|
+in1<2>         |seg_out<6>     |    9.232|
+in1<2>         |seg_out<7>     |    8.877|
+in1<3>         |flag_out<0>    |    8.513|
+in1<3>         |flag_out<1>    |    7.980|
+in1<3>         |flag_out<2>    |    8.600|
+in1<3>         |seg_out<1>     |    9.709|
+in1<3>         |seg_out<2>     |    9.020|
+in1<3>         |seg_out<3>     |    8.303|
+in1<3>         |seg_out<4>     |    9.268|
+in1<3>         |seg_out<5>     |    8.803|
+in1<3>         |seg_out<6>     |    8.811|
+in1<3>         |seg_out<7>     |    8.154|
+in2<0>         |flag_out<0>    |    8.739|
+in2<0>         |flag_out<1>    |    8.325|
+in2<0>         |flag_out<2>    |    9.549|
+in2<0>         |seg_out<1>     |   10.580|
+in2<0>         |seg_out<2>     |    9.891|
+in2<0>         |seg_out<3>     |    9.174|
+in2<0>         |seg_out<4>     |   10.139|
+in2<0>         |seg_out<5>     |    9.674|
+in2<0>         |seg_out<6>     |    9.682|
+in2<0>         |seg_out<7>     |    9.278|
+in2<1>         |flag_out<0>    |    8.831|
+in2<1>         |flag_out<1>    |    7.961|
+in2<1>         |flag_out<2>    |    9.641|
+in2<1>         |seg_out<1>     |   10.565|
+in2<1>         |seg_out<2>     |    9.869|
+in2<1>         |seg_out<3>     |    9.247|
+in2<1>         |seg_out<4>     |   10.121|
+in2<1>         |seg_out<5>     |    9.721|
+in2<1>         |seg_out<6>     |    9.725|
+in2<1>         |seg_out<7>     |    9.370|
+in2<2>         |flag_out<0>    |    8.167|
+in2<2>         |flag_out<1>    |    8.606|
+in2<2>         |flag_out<2>    |    9.934|
+in2<2>         |seg_out<1>     |   10.861|
+in2<2>         |seg_out<2>     |   10.172|
+in2<2>         |seg_out<3>     |    9.540|
+in2<2>         |seg_out<4>     |   10.420|
+in2<2>         |seg_out<5>     |   10.014|
+in2<2>         |seg_out<6>     |   10.018|
+in2<2>         |seg_out<7>     |    9.663|
+in2<3>         |flag_out<0>    |    7.944|
+in2<3>         |flag_out<1>    |    7.694|
+in2<3>         |flag_out<2>    |    8.637|
+in2<3>         |seg_out<1>     |    9.746|
+in2<3>         |seg_out<2>     |    9.057|
+in2<3>         |seg_out<3>     |    8.340|
+in2<3>         |seg_out<4>     |    9.305|
+in2<3>         |seg_out<5>     |    8.840|
+in2<3>         |seg_out<6>     |    8.848|
+in2<3>         |seg_out<7>     |    8.191|
+op_sel<0>      |flag_out<0>    |   10.018|
+op_sel<0>      |flag_out<1>    |    9.369|
+op_sel<0>      |flag_out<2>    |   10.569|
+op_sel<0>      |seg_out<1>     |   11.678|
+op_sel<0>      |seg_out<2>     |   10.989|
+op_sel<0>      |seg_out<3>     |   10.272|
+op_sel<0>      |seg_out<4>     |   11.237|
+op_sel<0>      |seg_out<5>     |   10.772|
+op_sel<0>      |seg_out<6>     |   10.780|
+op_sel<0>      |seg_out<7>     |   10.123|
+op_sel<1>      |flag_out<0>    |    9.565|
+op_sel<1>      |flag_out<1>    |    9.443|
+op_sel<1>      |flag_out<2>    |   10.434|
+op_sel<1>      |seg_out<1>     |   11.358|
+op_sel<1>      |seg_out<2>     |   10.662|
+op_sel<1>      |seg_out<3>     |   10.040|
+op_sel<1>      |seg_out<4>     |   10.914|
+op_sel<1>      |seg_out<5>     |   10.684|
+op_sel<1>      |seg_out<6>     |   10.695|
+op_sel<1>      |seg_out<7>     |   10.163|
+op_sel<2>      |flag_out<0>    |    7.664|
+op_sel<2>      |flag_out<1>    |    7.814|
+op_sel<2>      |flag_out<2>    |    8.826|
+op_sel<2>      |seg_out<1>     |    9.790|
+op_sel<2>      |seg_out<2>     |    9.054|
+op_sel<2>      |seg_out<3>     |    8.432|
+op_sel<2>      |seg_out<4>     |    9.346|
+op_sel<2>      |seg_out<5>     |    9.209|
+op_sel<2>      |seg_out<6>     |    9.220|
+op_sel<2>      |seg_out<7>     |    8.638|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 29 20:13:56 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5002 MB
+
+
+

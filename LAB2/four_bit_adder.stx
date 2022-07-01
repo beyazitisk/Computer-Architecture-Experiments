@@ -1,0 +1,78 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to G:/xlinx_projects/computer_arch/alu/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to G:/xlinx_projects/computer_arch/alu/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: four_bit_adder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "G:\xlinx_projects\computer_arch\alu\half_adder.vhd" into library work
+Parsing entity <half_adder>.
+Parsing architecture <Behavioral> of entity <half_adder>.
+Parsing VHDL file "G:\xlinx_projects\computer_arch\alu\full_adder.vhd" into library work
+Parsing entity <full_adder>.
+Parsing architecture <Behavioral> of entity <full_adder>.
+Parsing VHDL file "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" into library work
+Parsing entity <four_bit_adder>.
+ERROR:HDLCompiler:806 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 30: Syntax error near "zout".
+ERROR:HDLCompiler:854 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 25: Unit <four_bit_adder> ignored due to previous errors.
+Parsing architecture <Behavioral> of entity <four_bit_adder>.
+ERROR:HDLCompiler:374 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 33: Entity <four_bit_adder> is not yet compiled.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 36: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 37: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 38: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 39: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 40: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 43: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 46: <in1> is not declared.
+ERROR:HDLCompiler:629 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 46: Near character '0' ; 0 visible types match here
+ERROR:HDLCompiler:192 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 46: Actual of formal out port cout cannot be an expression
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 47: <in1> is not declared.
+ERROR:HDLCompiler:192 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 47: Actual of formal out port cout cannot be an expression
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 48: <in1> is not declared.
+ERROR:HDLCompiler:192 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 48: Actual of formal out port cout cannot be an expression
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 49: <in1> is not declared.
+ERROR:HDLCompiler:192 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 49: Actual of formal out port cout cannot be an expression
+ERROR:HDLCompiler:69 - "G:\xlinx_projects\computer_arch\alu\four_bit_adder.vhd" Line 50: <sout> is not declared.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4495200 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "G:/xlinx_projects/computer_arch/lab4/tb_reg_isim_beh.exe" -prj "G:/xlinx_projects/computer_arch/lab4/tb_reg_beh.prj" "work.tb_reg" 

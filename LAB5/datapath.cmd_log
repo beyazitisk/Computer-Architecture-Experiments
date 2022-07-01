@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/xlinx_projects/computer_arch/single_cycle_mips/datapath.xst" -ofn "G:/xlinx_projects/computer_arch/single_cycle_mips/datapath.syr" 

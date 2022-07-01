@@ -1,0 +1,6 @@
+vhdl work "Srl_op.vhd"
+vhdl work "Sra_op.vhd"
+vhdl work "Sll_op.vhd"
+vhdl work "Ror_op.vhd"
+vhdl work "Rol_op.vhd"
+vhdl work "Shift_Rotate_Unity.vhd"

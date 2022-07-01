@@ -1,0 +1,7 @@
+work	"ADDER.vhd"
+work	"CONTROLLER.vhd"
+work	"MULTIPLICAND.vhd"
+work	"MULTIPLIER.vhd"
+work	"Product.vhd"
+work	"and_mod.vhd"
+work	"seq_multiplier.vhd"

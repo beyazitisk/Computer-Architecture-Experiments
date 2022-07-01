@@ -1,0 +1,3 @@
+vhdl isim_temp "maindec.vhd"
+vhdl isim_temp "aludec.vhd"
+vhdl isim_temp "controller.vhd"

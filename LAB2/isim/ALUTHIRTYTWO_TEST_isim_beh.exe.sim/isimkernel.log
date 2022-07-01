@@ -1,0 +1,31 @@
+Command line:
+   ALUTHIRTYTWO_TEST_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52068
+
+Tue Mar 29 09:35:59 2022
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 5648.04 Meg
+
+ Total Signals          : 121
+ Total Nets             : 733
+ Total Signal Drivers   : 43
+ Total Blocks           : 27
+ Total Primitive Blocks : 21
+ Total Processes        : 41
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 1236
+Total Line Count : 53
+Total Line Count : 53
+Total Line Count : 53
+
+ Total Simulation Time: 0.5625 sec
+
+ Current Memory Usage: 4704.32 Meg
+
+Tue Mar 29 09:49:32 2022
+

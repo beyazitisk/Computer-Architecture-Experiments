@@ -1,0 +1,38 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 29 20:13:27 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "flag_out<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "flag_out<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "flag_out<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "op_sel<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "op_sel<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "op_sel<2>" LOCATE = SITE "R16" LEVEL 1;
+COMP "in1<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "seg_out<0>" LOCATE = SITE "H15" LEVEL 1;
+COMP "in1<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "seg_out<1>" LOCATE = SITE "T10" LEVEL 1;
+COMP "in1<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "seg_out<2>" LOCATE = SITE "R10" LEVEL 1;
+COMP "in1<3>" LOCATE = SITE "R15" LEVEL 1;
+COMP "seg_out<3>" LOCATE = SITE "K16" LEVEL 1;
+COMP "in2<0>" LOCATE = SITE "R17" LEVEL 1;
+COMP "seg_out<4>" LOCATE = SITE "K13" LEVEL 1;
+COMP "in2<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg_sel<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "seg_out<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "in2<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg_sel<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "seg_out<6>" LOCATE = SITE "T11" LEVEL 1;
+COMP "in2<3>" LOCATE = SITE "R13" LEVEL 1;
+COMP "seg_sel<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "seg_out<7>" LOCATE = SITE "L18" LEVEL 1;
+COMP "seg_sel<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "seg_sel<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "seg_sel<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "seg_sel<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "seg_sel<7>" LOCATE = SITE "U13" LEVEL 1;
+SCHEMATIC END;
+

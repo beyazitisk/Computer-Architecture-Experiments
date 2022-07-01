@@ -1,0 +1,20 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "G:/xlinx_projects/computer_arch/lab4/tb_reg_isim_beh.exe" -prj "G:/xlinx_projects/computer_arch/lab4/tb_reg_beh.prj" "work.tb_reg" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "G:/xlinx_projects/computer_arch/lab4/reg_file.vhd" into library work
+Parsing VHDL file "G:/xlinx_projects/computer_arch/lab4/tb_reg.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity register_file [register_file_default]
+Compiling architecture behavior of entity tb_reg
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable G:/xlinx_projects/computer_arch/lab4/tb_reg_isim_beh.exe
+Fuse Memory Usage: 35912 KB
+Fuse CPU Usage: 468 ms

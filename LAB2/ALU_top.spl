@@ -1,0 +1,10 @@
+[Inputs]
+clk
+=in1[3:0]=
+=in2[3:0]=
+=op_sel[2:0]=
+[Outputs]
+=flag_out[2:0]=
+=seg_out[7:0]=
+=seg_sel[7:0]=
+[BiDir]

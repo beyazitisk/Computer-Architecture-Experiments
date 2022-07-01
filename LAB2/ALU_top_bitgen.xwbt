@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Beyazit\Desktop\xlinx_projects\alu\ALU_top.ncd
+OUTFILE=C:\Users\Beyazit\Desktop\xlinx_projects\alu\ALU_top.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Beyazit\Desktop\xlinx_projects\alu
+LICENSE=WebPack
+USER_INFO=212311118_0_0_438
