@@ -15,3 +15,8 @@ Register File
 
 LAB-5 
 A SINGLE-CYCLE CPU MIPS
+
+BONUS
+ROTATING SQUARE while Pressing Button for Artix 7 XC7A100T
+
+While the button specified in project pressed, every 1 second a new square generated. Squares are following each other like snake game.
